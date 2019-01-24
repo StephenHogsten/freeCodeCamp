@@ -57,7 +57,9 @@ const Layout = ({ children }) => (
             toggleDisplaySideNav,
             displaySideNav,
             expandedState,
-            toggleExpandedState
+            sidebarScroll,
+            toggleExpandedState,
+            saveSidebarScroll
           }) => (
             <DefaultLayout>
               <Spacer size={2} />
